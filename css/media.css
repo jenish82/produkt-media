@@ -1,0 +1,103 @@
+@media (max-width:1440px) {
+    .container{
+        width:90%
+    }
+}
+@media (max-width:1200px) {
+
+    }
+@media (max-width: 1024px) {
+    .hero{
+        flex-direction: column;
+    }
+    .product-block{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .product-block-one{
+        padding: 10px;
+    }
+    .management{
+        flex-direction: column;
+    }
+    .customer{
+        flex-direction: column-reverse;
+    }
+    .collaborative{
+        flex-direction: column;
+    }
+    .price-blocks,.what-blocks{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .price-block,.what-block{
+        margin: 10px;
+    }
+}
+@media (max-width:992px) {
+    .header-nav{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+}
+@media (max-width:768px) {
+    .join-block{
+        flex-direction: column;
+        height: 90%;
+        text-align: center;
+    }
+    .footer-general{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:576px){
+    .hero-img,.management-img,.customer-img,.collaborative-img{
+        width: 90%;
+    }
+}
+@media (max-width:450px){
+    .hero-text h1{
+        width: 90%;
+        text-align: center;
+    }
+    .hero-text p{
+        width: 90%;
+        text-align: center;
+    }
+    .hero-btn{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .management-text,.customer-text,.collaborative-text{
+        width: 90%;
+        text-align: center;
+    }
+    .management-text p,.customer-text p,.collaborative-text p{
+        width: 90%;
+    }
+    .join-img,.join-block-text h1{
+        width: 90%;
+    }
+}
+@media (max-width:425px){
+    .footer-general{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width:400px){
+    .quick-text-block{
+        width: 90%;
+        padding: 5px 10px;
+    }
+
+}
+@media (max-width:320px){
+    .footer-input input{
+        width: 90%;
+    }
+
+}
